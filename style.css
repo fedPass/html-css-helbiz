@@ -28,8 +28,6 @@ a {
 .column {
     float: left;
     padding: 0 15px;
-    border: 1px solid black;
-    height: 500px;
 }
 
 .half.column  {
@@ -150,7 +148,7 @@ header {
 }
 /*** fine jumbotron ***/
 
-/*** inizio altre sezioni ... ***/
+/*** inizio seconda sezione ***/
 #second {
     padding: 80px 0;
 }
@@ -181,3 +179,55 @@ header {
     font-size: 22px;
     margin: 15px 0;
 }
+
+/*** fine seconda sezione ***/
+
+/*** inizio terza sezione ***/
+#third {
+    position: relative;
+}
+
+.steps-top {
+    background-image: url(https://helbiz.com/asset/pages/newhome/images/HelbizBanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.steps-bottom {
+    width: 70%;
+    margin: 40px auto;
+    padding: 24px 0;
+}
+
+.steps-bottom h3 {
+    float: left;
+    font-weight: bold;
+    font-size: 36px;
+    width: 30%;
+}
+
+#steps-bottom-right {
+    float: right;
+}
+
+#steps-bottom-right p:first-child {
+    font-weight: bold;
+    padding: 15px 0;
+}
+
+#iphone-image {
+    height: 630px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 170px;
+}
+
+/* #iphone-image::after {
+    content: ' \25CB';
+    display: block;
+    color: #000;
+    weight: 15px;
+    height: 15px;
+} */
