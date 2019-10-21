@@ -185,6 +185,7 @@ header {
 /*** inizio terza sezione ***/
 #third {
     position: relative;
+    margin-bottom: 140px; /* per farci entrare l'iphone*/
 }
 
 .steps-top {
@@ -216,18 +217,75 @@ header {
     padding: 15px 0;
 }
 
-#iphone-image {
-    height: 630px;
+.iphone {
     position: absolute;
     left: 50%;
     transform: translate(-50%);
     top: 170px;
 }
 
-/* #iphone-image::after {
+#iphone-image {
+    height: 630px;
+}
+
+#third span::after {
     content: ' \25CB';
-    display: block;
+    text-align: center;
+    width: 25%;
+    display: inline-block;
     color: #000;
-    weight: 15px;
-    height: 15px;
-} */
+    font-size: 13px;
+}
+
+#full-ball::after { /*non mi funziona*/
+    content: ' \25CF';
+    text-align: center;
+    width: 25%;
+    display: inline-block;
+    color: #000;
+    font-size: 13px;
+}
+
+.circles {
+    width:30%;
+    margin: 0 auto;
+    position: relative;
+    top: -50px;
+}
+
+/*** fine terza sezione ***/
+
+#smart-mobility {
+    background-image: url(https://helbiz.com/asset/pages/newhome/images/ScooterHelbiz-2400.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+.smart-mob.text {
+    width: 30%;
+    float: right;
+    margin-top: calc((500px - 218px) / 2);
+
+}
+
+.text h2 {
+    font-size: 48px;
+}
+
+.text p {
+    font-size: 21px;
+}
+
+.text a {
+    color: #fff;
+    font-size: 21px;
+}
+
+
+
+/*** inizio quarta sezione ***/
