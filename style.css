@@ -82,17 +82,6 @@ header {
     margin-right: 24px;
 }
 
-/* alternativa con i bordi per fare le righe verticali che separano le lingue
-#main-menu li.language a {
-    padding: 5px;
-}
-
-#main-menu li.language:nth-child(7) a {
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-}
-*/
-
 #main-menu li.language:not(:last-child)::after {
     content: '|';
     margin-left: 3px;
@@ -175,6 +164,10 @@ header {
     margin: 15px 0;
 }
 
+.product a:hover {
+    text-decoration: underline;
+}
+
 .product p {
     font-size: 17px;
     margin: 15px 0;
@@ -204,12 +197,14 @@ header {
 .steps-bottom h3 {
     float: left;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 28px;
     width: 30%;
+    margin-left: 30px;
 }
 
 #steps-bottom-right {
     float: right;
+    margin-right: 100px;
 }
 
 #steps-bottom-right p:first-child {
@@ -224,11 +219,28 @@ header {
     top: 170px;
 }
 
+.carousel-icon {
+    visibility: hidden;
+    background-color: rgba(238, 238, 238, 0.5);
+    border-radius: 50%;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    position: relative;
+    bottom: 345px;
+    margin: 0 30px;
+}
+
+.iphone:hover {
+    visibility: visible;
+}
+
 #iphone-image {
     height: 630px;
 }
 
-#third span::after {
+#third span:not(.carousel-icon)::after {
     content: ' \25CB';
     text-align: center;
     width: 25%;
@@ -247,7 +259,7 @@ header {
 }
 
 .circles {
-    width:30%;
+    width:15%;
     margin: 0 auto;
     position: relative;
     top: -50px;
@@ -318,6 +330,10 @@ header {
     padding: 0 10px
 }
 
+.text a:hover {
+    text-decoration: underline;
+}
+
 /*** fine quarta sezione ***/
 
 /*** inizio sezione social ***/
@@ -365,6 +381,10 @@ footer {
     width: 25%;
 }
 
+.footer-menu {
+    margin-bottom: 100px;
+}
+
 .footer-menu h3 {
     font-size: 16px;
     margin-bottom: 15px;
@@ -392,6 +412,7 @@ footer li {
 
 .social-privacy-footer a {
     color: #fff;
+    font-size: 12px;
 }
 
 .button-footer {
