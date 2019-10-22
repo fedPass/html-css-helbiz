@@ -21,7 +21,7 @@ a {
 }
 
 .main-container {
-    width: 90%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -160,7 +160,7 @@ header {
 }
 
 .product-logo {
-    height: 22px;
+    height: 18px;
 }
 
 .product-photo {
@@ -170,13 +170,13 @@ header {
 
 .product a {
     color: #0070c8;
-    font-size: 20px;
+    font-size: 17px;
     display: block;
     margin: 15px 0;
 }
 
 .product p {
-    font-size: 22px;
+    font-size: 17px;
     margin: 15px 0;
 }
 
@@ -255,37 +255,65 @@ header {
 
 /*** fine terza sezione ***/
 
+/*** inizio quarta sezione ***/
+
 #smart-mobility {
+    width: 100%;
     background-image: url(https://helbiz.com/asset/pages/newhome/images/ScooterHelbiz-2400.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 500px;
+    height: 400px;
     color: #fff;
     text-align: center;
     margin-bottom: 40px;
-
 }
 
-.smart-mob.text {
+#get-up {
+    background-image: linear-gradient(#41566a,#252f38);
+    height: 400px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#find-us {
+    background-image: url(https://helbiz.com/asset/pages/newhome/images/Cities-1500.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#get-up img {
+    width: 70%;
+    display: block;
+    position: relative;
+    top: 13px;
+    left: calc((385px - 237px) / 2);
+}
+
+#smart-mobility .text {
     width: 30%;
     float: right;
-    margin-top: calc((500px - 218px) / 2);
-
+    margin-top: calc((400px - 220px) / 2);
+    margin-right: 90px;
 }
 
 .text h2 {
-    font-size: 48px;
+    font-size: 35px;
+    margin-bottom: 10px;
+    padding-top: 30px;
 }
 
 .text p {
-    font-size: 21px;
+    font-size: 17px;
+    margin-bottom: 15px;
 }
 
 .text a {
     color: #fff;
-    font-size: 21px;
+    font-size: 17px;
+    padding: 0 10px
 }
-
-
-
-/*** inizio quarta sezione ***/
