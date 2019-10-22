@@ -351,3 +351,57 @@ header {
 .social-text {
     padding-top: calc((150px - 74px) / 2);
 }
+/*** fine sezione social***/
+
+/*** inizio footer ***/
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.slim {
+    width: 25%;
+}
+
+.footer-menu h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.footer-menu a {
+    color: #696969;
+    font-size: 15px;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+.social-privacy-footer {
+    margin: 50px 0;
+    padding: 30px 0;
+    border-top: 1px solid #696969;
+    border-bottom: 1px solid #696969;
+}
+
+.social-privacy-footer i {
+    padding: 0 10px;
+}
+
+.social-privacy-footer a {
+    color: #fff;
+}
+
+.button-footer {
+    width: 22%;
+    margin: 0 auto;
+}
+
+.button-footer img {
+    width: 100px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin:0 10px;
+}
